@@ -35,10 +35,10 @@ else:
 
 #5Create Student Result System
 s = int(input("Enter no. of students:"))
-for i in range(1,n+1):
+for i in range(1,s+1):
     name=input("Enter student name:")
     RollNo=input("Enter roll no. of the student:")
-    science=int(input("Enter the marks of the studet of science:"))
+    science=int(input("Enter the marks of the student of science:"))
     maths=int(input("Enter the marks of the student of maths:"))
     total=maths+science
     percentage=total/200*100
